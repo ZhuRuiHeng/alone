@@ -1,0 +1,6 @@
+.gas wx-image {
+  width: 175px;
+  height: 140px;
+  display: block;
+  margin: 0 auto;
+}

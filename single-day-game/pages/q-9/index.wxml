@@ -1,0 +1,33 @@
+<view class="common-question">
+    <image class="title" src="https://192.168.100.101/single-day-game/images/q-10.png">
+    </image>
+    <image class="index" src="https://192.168.100.101/single-day-game/images/10.png">
+    </image>
+    <view class="common-number q-two"></view>
+    <span class="common-text"><span>5秒内，快速摇晃手机，摇得越快，得分越高。结束震动提醒<br></br>    <br></br>  </span></span>
+</view>
+<view class="shake-wrapper">
+    <block wx:if="{{isStart}}">
+        <image class="shake" src="https://192.168.100.101/single-day-game/images/hand.png"></image>
+        <view bindtap="start" class="shake-btn">开始摇晃</view>
+    </block>
+    <block wx:else>
+        <image class="shake" src="https://192.168.100.101/single-day-game/images/hand-shake.gif"></image>
+        <view class="shake-btn skaked">{{shakeTime}}</view>
+    </block>
+</view>
+<view wx:if="{{showResult}}" class="result">
+    <view class="content">
+        <view class="result-title">最终得分：</view>
+        <view class="result-score">
+            <span class="text"><span>{{score}}</span></span>
+            分
+        </view>
+        <view class="result-desc">{{desc}}</view>
+        <view class="result-btn">
+            <button class="shake-btn share-text" id="result_share" open-type="share">转发至微信群，看你排第几</button>
+            <view class="shake-btn share-text" id="test_again" bindtap="testAgain">再测一次</view>
+            <view class="copyright">珍爱网出品</view>
+        </view>
+    </view>
+</view>

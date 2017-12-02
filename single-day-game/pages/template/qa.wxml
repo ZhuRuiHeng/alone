@@ -1,0 +1,29 @@
+<template name="qaTpl">
+<view class="common-question">
+    <view class="common-number q{{qIndex}}" ></view>
+    <span class="common-text"><span>{{qTitle}}</span>
+    </span>
+</view>
+
+<view wx:if="{{listType == 2}}" class="gas">
+    <image src="https://192.168.100.101/single-day-game/images/five_bg.png">
+    </image>
+</view>
+
+<view class="answer-content">
+    <block wx:if="{{listType != 1}}">
+    <view wx:for="{{list}}" wx:for-index="liIdx" wx:for-item="li" wx:key="{{qIndex+liIdx}}" bindtap="answerSelect" class="answer-btn" data-index="{{liIdx}}" hover-class="answer-tap">
+        <span class="order-num"><span>{{li.liOrderNum}}</span></span>
+        <span class="text {{li.isTwoline?'twoline':''}}"><span>{{li.liContent}}</span></span>
+    </view>
+    </block>
+    <block wx:if="{{listType == 1}}">
+        <view wx:for="{{list}}" wx:for-index="liIdx" wx:for-item="li" wx:key="{{qIndex+liIdx}}" bindtap="answerSelect" class="q1-ans {{liIdx != 0?'mt':''}}" data-index="{{liIdx}}">
+            <span><span>{{li.liOrderNum}}</span></span>
+            <image src="{{li.liContent}}">
+            </image>
+        </view>
+    </block>
+</view>
+<view class="toast" wx:if="{{toast}}">{{toast}}</view>
+</template>

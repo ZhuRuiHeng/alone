@@ -1,0 +1,42 @@
+.q-one {
+  background-image: url('https://192.168.100.101/single-day-game/images/3.png');
+  width: 47px;
+  height: 64px;
+  background-size: 47px 64px;
+}
+
+.ans-content {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.q1-ans {
+  width: 202px;
+  height: 91px;
+  background-image: url('https://192.168.100.101/single-day-game/images/q1.png');
+  background-repeat: no-repeat;
+  background-size: 202px 91px;
+  line-height: 91px;
+  font-size: 24px;
+  text-align: left;
+  text-indent: 14px;
+  display: inline-block;
+  position: relative;
+  color: #333333;
+}
+
+.q1-ans wx-image {
+  position: absolute;
+  width: 135px;
+  height: 67px;
+  top: 7px;
+  right: 16px;
+}
+
+.q1-ans-tap {
+  background-image: url('https://192.168.100.101/single-day-game/images/q1-tap.png') !important;
+}
+
+.mt {
+  margin-top: 20px;
+}

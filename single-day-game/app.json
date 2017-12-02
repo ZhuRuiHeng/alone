@@ -1,0 +1,22 @@
+{
+  "pages":[
+    "pages/home/index",
+    "pages/q-0/index",
+    "pages/q-1/index",
+    "pages/q-2/index",
+    "pages/q-3/index",
+    "pages/q-4/index",
+    "pages/q-5/index",
+    "pages/q-6/index",
+    "pages/q-7/index",
+    "pages/q-8/index",
+    "pages/q-9/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "单身王者排行榜",
+    "navigationBarTextStyle":"white"
+  }
+}

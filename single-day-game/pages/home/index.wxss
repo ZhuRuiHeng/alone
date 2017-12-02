@@ -1,0 +1,78 @@
+page {
+  background-image: url('https://192.168.100.101/single-day-game/images/home_bg.png');
+  background-size: 100%;
+}
+.main {
+  padding: 0 21px 0;
+}
+
+.home-main {
+  display: block;
+  width: 100%;
+}
+
+.desc {
+  margin-top: 14px;
+  padding: 0 47px 32px 51px;
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+}
+
+.ans-wrap {
+  position: relative;
+}
+
+.ans-btn {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 202px;
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+  background-image: url('https://192.168.100.101/single-day-game/images/common_quest.png');
+  background-size: 202px 48px;
+  font-size: 23px;
+  text-align: center;
+  line-height: 43px;
+  background-repeat: no-repeat;
+}
+
+.ans-wrap .ans-info {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 7px;
+  color: #333;
+}
+
+.hover-btn {
+  background-image: url('https://192.168.100.101/single-day-game/images/common_hover.png') !important;
+}
+
+.dog {
+  position: absolute;
+  right: 1px;
+  top: 49px;
+}
+
+.dog wx-image {
+  width: 180px;
+  height: 88px;
+}
+
+.love {
+  position: absolute;
+  left: 33px;
+  top: 40%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.love wx-image {
+  width: 88px;
+  height: 100px;
+}

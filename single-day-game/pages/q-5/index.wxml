@@ -1,0 +1,2 @@
+<import src="../template/qa.wxml"/>
+<template is="qaTpl" data="{{...content}}"/>

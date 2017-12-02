@@ -1,0 +1,21 @@
+<view class="main">
+    <image class="home-main" mode="widthFix" src="https://192.168.100.101/single-day-game/images/home_main.png"
+              style="height: 401.045px;">
+    </image>
+</view>
+<view class="desc">
+    专家都说智商越高越容易单身，10道题目助你登上榜首，告诉别人单身的你也能活得漂亮！
+</view>
+<view class="ans-wrap">
+    <navigator url="../q-0/index">
+        <view class="ans-btn" hover-class="hover-btn">开始答题</view>
+    </navigator>
+</view>
+<view class="dog">
+    <image src="https://192.168.100.101/single-day-game/images/dog.gif">
+    </image>
+</view>
+<view class="love">
+    <image src="https://192.168.100.101/single-day-game/images/love.gif">
+    </image>
+</view>

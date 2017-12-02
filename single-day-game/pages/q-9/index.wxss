@@ -1,0 +1,123 @@
+.title {
+  position: absolute;
+  top: -12px;
+  left: 1px;
+  width: 172px;
+  height: 48px;
+  z-index: 999;
+}
+
+.index {
+  position: absolute;
+  top: -24px;
+  right: 21px;
+  width: 62px;
+  height: 46px;
+  z-index: 999;
+}
+
+.shake-wrapper {
+  margin-top: 38px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.shake {
+  width: 192px;
+  height: 192px;
+}
+
+.shake-btn {
+  background: url('https://192.168.100.101/single-day-game/images/common_quest.png') no-repeat;
+  margin-top: 37px;
+  width: 201px;
+  height: 48px;
+  text-align: center;
+  font-size: 23px;
+  line-height: 44px;
+  background-size: 201px 48px;
+}
+
+.skaked {
+  background: url('https://192.168.100.101/single-day-game/images/common_hover.png') no-repeat;
+  background-size: 201px 48px;
+  font-size: 37px;
+}
+
+.big-font {
+  font-size: 37px;
+}
+
+.result {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.result .content {
+  background-image: url('https://192.168.100.101/single-day-game/images/result_bg.png');
+  background-size: cover;
+  margin: 0 39px;
+  height: 543px;
+  position: relative;
+}
+
+.result-title {
+  position: absolute;
+  top: 146px;
+  left: 40px;
+  color: #343434;
+  font-size: 16px;
+}
+
+.result-score {
+  position: absolute;
+  top: 161px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 21px;
+  color: #FF7070;
+}
+
+.result-score .text {
+  font-size: 72px;
+}
+
+.result-desc {
+  position: absolute;
+  top: 256px;
+  left: 46px;
+  right: 43px;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.share-text {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 13px;
+}
+
+.result-btn {
+  position: absolute;
+  top: 340px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.copyright {
+  font-size: 11px;
+  text-align: center;
+  color: #666666;
+  margin-top: 6px;
+}

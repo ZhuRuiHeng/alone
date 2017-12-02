@@ -1,0 +1,171 @@
+/**app.wxss**/
+page {
+  font-family: "微软雅黑";
+  background-image: url(https://192.168.100.101/single-day-game/images/common_bg.png);
+  background-size: 100% 100%;
+}
+
+.container {
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 96px 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "微软雅黑";
+  background-image: url('https://192.168.100.101/single-day-game/images/common_bg.png');
+  background-size: 100% 100%;
+}
+
+.common-question {
+  margin-top: 55px;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 303px;
+  height: 138px;
+  background-image: url('https://192.168.100.101/single-day-game/images/common_question.png');
+  background-size: 303px 138px;
+  background-repeat: no-repeat;
+}
+
+.common-number {
+  position: absolute;
+  width: 31px;
+  height: 63px;
+  right: 54px;
+  top: -36px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.common-text {
+  position: absolute;
+  margin: 50px 26px 22px 21px;
+  color: #333333;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.answer-content {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.answer-content .answer-btn {
+  background-image: url('https://192.168.100.101/single-day-game/images/common_quest.png');
+  width: 202px;
+  height: 48px;
+  background-size: 202px 48px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-align: left;
+  margin-top: 26px;
+  font-size: 24px;
+  color: #333333;
+  line-height: 48px;
+}
+
+.answer-content .order-num {
+  margin-left: 15px;
+}
+
+.answer-content .text {
+  position: absolute;
+  font-size: 15px;
+  margin-left: 14px;
+  line-height: 48px;
+  width: 134px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.twoline {
+  margin-top: 2px;
+  font-size: 13px !important;
+  line-height: 20px !important;
+}
+
+.answer-tap {
+  background-image: url('https://192.168.100.101/single-day-game/images/common_hover.png') !important;
+}
+
+.q1 {
+  background-image: url('https://192.168.100.101/single-day-game/images/1.png');
+  width: 31px;
+  height: 63px;
+}
+
+.q2 {
+  background-image: url('https://192.168.100.101/single-day-game/images/2.png');
+  width: 46px;
+  height: 63px;
+}
+
+.q3 {
+  background-image: url('https://192.168.100.101/single-day-game/images/3.png');
+  width: 47px;
+  height: 64px;
+}
+
+.q4 {
+  background-image: url('https://192.168.100.101/single-day-game/images/4.png');
+  width: 49px;
+  height: 63px;
+}
+
+.q5 {
+  background-image: url('https://192.168.100.101/single-day-game/images/5.png');
+  width: 47px;
+  height: 63px;
+}
+
+.q6 {
+  background-image: url('https://192.168.100.101/single-day-game/images/6.png');
+  width: 47px;
+  height: 64px;
+}
+
+.q7 {
+  background-image: url('https://192.168.100.101/single-day-game/images/7.png');
+  width: 46px;
+  height: 62px;
+}
+
+.q8 {
+  background-image: url('https://192.168.100.101/single-day-game/images/8.png');
+  width: 47px;
+  height: 64px;
+}
+
+.q9 {
+  background-image: url('https://192.168.100.101/single-day-game/images/9.png');
+  width: 47px;
+  height: 64px;
+}
+
+.toast {
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 248px;
+  height: 105px;
+  background-image: url('https://192.168.100.101/single-day-game/images/toast.png');
+  background-size: 248px 105px;
+  line-height: 134px;
+  text-align: center;
+  font-size: 15px;
+  color: #333333;
+}

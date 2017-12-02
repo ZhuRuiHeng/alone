@@ -1,0 +1,18 @@
+.answer-content .answer-btn {
+  background-image: url('https://192.168.100.101/single-day-game/images/nine_btn.png');
+  background-size: 227px 48px;
+  width: 227px;
+}
+
+.answer-content wx-text {
+  margin-left: 8px;
+}
+
+.answer-content .text {
+  width: 182px;
+  margin-left: 7px;
+}
+
+.answer-tap {
+  background-image: url('https://192.168.100.101/single-day-game/images/nine_btn_tap.png') !important;
+}
